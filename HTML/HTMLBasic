@@ -44,12 +44,17 @@ content
 <dt> - specifies the term
 <dd> - specifies the definition
 <iframe src=""> - this is used to embed a HTML page in the parent page. We can also use to embed videos/images from other pages.
-<form> - used to create forms for processing input 
+<form action="#"> - used to create forms for processing input 
 <input type="" name="" size="3" maxlength="7"> an input tag that is used to fetch input from user. Type can be "text","password","radio","checkbox","". Size is used to get reduce the size of input box. Maxlength is used to limit the entry of values.
 <input type="radio" name="abc"> radio type button, the name must be always same.
 <input type="radio" name="abc" checked> radio type pre checked
-<input type="checkbox" name="course" value="HTML"> a multi selectable checkbox, the name must be same across.
+<input type="checkbox" name="course" value="HTML"> a multi selectable checkbox, the name should be different.
 <input type="checkbox" name="course" value="HTML" checked> already selected on load.
+<select name=""> parent tag for dropdown values
+<option> options under a select tag 
+<textarea name="" rows="3" columns="10"> text area that has rows and columns as provided.
+<input type="submit" value="Submit Button"> The submit button takes all information from form and passes it to the form action.
+ <input type="reset" value="Reset Button"> Reset button, the value property is used to show in UI
 
 <!-- --> Comment used in HTML page
 </body>
