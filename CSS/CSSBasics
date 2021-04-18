@@ -1,0 +1,7 @@
+CSS - Cascading Style Sheets. Provides the design and styles for a HTML page. Describes how HTML elements should look like.
+In an HTML page, it should be placed in <head> section and is used in 
+<style type = "text/css" > If Styling is used inline
+selector { property:value} - selector=HTML tag, property=attribute of HTML tag, value =value of property
+h1{color:blue}
+
+<link rel="stylesheet" href="mystyle.css"> External styles are defined within the <link> element, inside the <head> section of an HTML page:
