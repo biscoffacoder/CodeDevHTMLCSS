@@ -39,7 +39,18 @@ content
 <caption> Provides a heading to the table that is on top of table
 <ul type="square"> Unordered list creation with a square bullet, can be changed to null, disc etc.
 <li> list item that is present inside a ui tag.
-<ol> ordered list which again needs <li> as its elements
+<ol type="1"> ordered list which again needs <li> as its elements. Type can be 1, A - A,B,C. a-a,b,c I- I,II,III i- i,ii,iii
+<dl> Definiton List, Can be used for a name value pair.
+<dt> - specifies the term
+<dd> - specifies the definition
+<iframe src=""> - this is used to embed a HTML page in the parent page. We can also use to embed videos/images from other pages.
+<form> - used to create forms for processing input 
+<input type="" name="" size="3" maxlength="7"> an input tag that is used to fetch input from user. Type can be "text","password","radio","checkbox","". Size is used to get reduce the size of input box. Maxlength is used to limit the entry of values.
+<input type="radio" name="abc"> radio type button, the name must be always same.
+<input type="radio" name="abc" checked> radio type pre checked
+<input type="checkbox" name="course" value="HTML"> a multi selectable checkbox, the name must be same across.
+<input type="checkbox" name="course" value="HTML" checked> already selected on load.
+
 <!-- --> Comment used in HTML page
 </body>
 </head>
