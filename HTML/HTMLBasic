@@ -1,0 +1,48 @@
+HyperText Markup language -
+It defines the structure of a webpage and CSS we get the design for a webpage.
+HTML is made of tags - >100 
+attribute like src, link, etc are characteristics of a tag
+
+Tags - 
+<keyword> opening
+content
+</keyword> closing
+
+<!DOCTYPE html> - this tag is used by the browser to understand that it is a HTML page with std 5 version.
+<html> should start with html tag
+<head> specify title, data for SEO, browser related data
+<title> title is displayed on the bar and is used in search results
+<body> any visible content must be within this tag
+<h1-h6> headings can be from h1 to h6. H1 being the largest. These should be used only for headings and not randomly as they're used by search engines to index pages
+<p1-p6> paragraphs can be created from p1-p6. P1 being the largest.
+<hr/> Horizontal line can be used to seperate tags
+<br/> Break tag, breaks content to new line and can be used in between tags.
+<b> Bold tag. Can be used in between tags, should be closed as well
+<i> Italicize tag
+<u> Underline tag
+<strike> Strikethrough tag
+<sub> subscript tag
+<sup> superscript tag x^2
+<pre> Preserves White spaces
+<img src="" alt="someText"/> image tag with source and alt text
+<img src="" alt="" height="100px" width="90px"/> Inline Styling
+<img src="" alt="" style="height:100px; width:90px"/> Inline Styling with style attribute.
+<a href=""> Anchor tag is used to set up a link
+<a href="#idValue"> This href can be used as a quick bookamrk to jump to a id of a tag.
+<a href="page.html#idValue"> This href can be used to jump to a page and then again to a id of a tag.
+<table border="1" cellpadding="5" cellspacing="10" width="500px" height="200px"> Table tag with a border and cell spacing b/n content and border, cellspacing - spaces between two cells
+<tr> Table Row
+<th> Heading for a Table Row
+<td> table data
+<th/td colspan="number of columns to combine"> Generates a combined cell for the defined column values
+<th/td rowspan="number of rows to combine"> Generates a block for combined rows 
+<caption> Provides a heading to the table that is on top of table
+<ul> Unordered list creation.
+<li> list item that is present inside a ui tag.
+<ol> ordered list which again needs <li> as its elements
+<!-- --> Comment used in HTML page
+</body>
+</head>
+</html>
+
+
