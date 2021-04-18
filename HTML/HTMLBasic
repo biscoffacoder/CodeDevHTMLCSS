@@ -37,7 +37,7 @@ content
 <th/td colspan="number of columns to combine"> Generates a combined cell for the defined column values
 <th/td rowspan="number of rows to combine"> Generates a block for combined rows 
 <caption> Provides a heading to the table that is on top of table
-<ul> Unordered list creation.
+<ul type="square"> Unordered list creation with a square bullet, can be changed to null, disc etc.
 <li> list item that is present inside a ui tag.
 <ol> ordered list which again needs <li> as its elements
 <!-- --> Comment used in HTML page
