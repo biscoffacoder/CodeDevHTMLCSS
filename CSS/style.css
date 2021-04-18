@@ -1,4 +1,66 @@
 p
 {
     color: aqua;
+    background-color:lemonchiffon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2.5;
+    border-style: inset;
+    border-color: indigo;
+    border-width: 10px;
+    padding:20px;
+    margin-top: 120px;
+ }
+ body
+ {
+    background-image: url("../HTML/images/friends.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50px 100px;
+    background-position: center;
+    
+   
+
+ }
+ div
+ {
+     margin: 10px;
+     padding: 50px;
+ }
+ table
+ { border:2px solid black;
+   padding: 10px;
 }
+ tr
+ {
+     background-color: indigo;
+     width: 20%;
+ }
+ td{
+     color: lawngreen;
+     background-color: black;
+ }
+ th{
+     color:red;
+     background-color: wheat;
+ }
+ 
+ a:link
+ {
+     color:blue
+ }
+ a:hover{
+     color:chartreuse
+ }
+ a:visited
+ {
+     color:red
+ }
+ a:active{
+     color:darkviolet
+ }

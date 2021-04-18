@@ -14,7 +14,7 @@ content
 <title> title is displayed on the bar and is used in search results
 <body> any visible content must be within this tag
 <h1-h6> headings can be from h1 to h6. H1 being the largest. These should be used only for headings and not randomly as they're used by search engines to index pages
-<p1-p6> paragraphs can be created from p1-p6. P1 being the largest.
+<p> paragraphs can be created using this tag
 <hr/> Horizontal line can be used to seperate tags
 <br/> Break tag, breaks content to new line and can be used in between tags.
 <b> Bold tag. Can be used in between tags, should be closed as well

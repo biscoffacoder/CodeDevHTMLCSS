@@ -5,3 +5,50 @@ selector { property:value} - selector=HTML tag, property=attribute of HTML tag, 
 h1{color:blue}
 
 <link rel="stylesheet" href="mystyle.css"> External styles are defined within the <link> element, inside the <head> section of an HTML page:
+
+CSS BOX - 
+[MARGIN[BORDER[PADDING[CONTENT]PADDING]BORDER]MARGIN]
+
+PROPERTIES - 
+
+color:  define color to the given tag/ID. Can use direct colors or #6digits each for RGB #000000, can also use rgb(R,G,B) rgb(0,0,255).
+background-color: provides the color spec for background of the tag
+background-image: url("") - sets a background image for the tag  
+background-repeat: no-repeat; - does not repeat the image if it's smaller than screen size. It also has values like - repeat-x;, repeat-y, no-repeat
+background-position: 50px 100px; - Position the background image as wanted
+background-attachment: fixed: prevents movement of image while scrolling. we can set it to - scroll, fixed, inherit, local etc.
+font-family: Georgia, Verdana; - Sets the font family according to L to R precedence.
+font-style : italic; - italicize the font, can use normal, oblique, inherit
+font-size:12px; - Set the size of fonts
+font-weight: bolder; Sets the thickness of the font. Can use - bolder, bold, lighter, normal.
+text-align:left/center/right; - sets the alignment of the text. Can use - inherit, center, left, right, justify. Justify the width of text.
+letter-spacing:10px; - Spaces between the letters
+word-spacing: 4px; Spaces between the words.
+line-height: 1.5; - Spaces between lines
+a:link{color:blue} - when a link is present the color is blue
+a:hover{color:red} - when hovered over, color is red
+a:active{color:green} - when clicked color is green.
+a:visited{color:orange} - once visited, in the parent page the link color
+
+border-style:dotted; - Creates the border around the tag. Can have dashed,solid,inset,outset etc.
+border-color: blue; - Sets the color for the border
+border-width:10px; - Sets the width of border
+border-left-color:red; - Sets the left side of border color;
+border: width style color; - shorthand notation to create border.
+
+PADDING - Space between content and BORDER.
+padding:25px; - Adds padding space in all sides from the content.
+padding-top:10px; - Adds Padding from top side.
+padding-right:10px; - Right side.
+padding-left:10px;
+padding-bottom:10px;
+
+MARGIN - Space between two elements. 
+margin:50px; - Provides the margin space around all sides from the elements
+margin-top:5px; - Individual sides can be given margin values. top, right, left
+
+TABLE STYLING -
+table{border:2px solid black}
+tr {background-color:indigo; }
+td{color: lawngreen;background-color: black; } - td tag styling is always inherited from existing tr tag. if any additional style is present in td, it is then applied.
+th{color:red;background-color: wheat; }
