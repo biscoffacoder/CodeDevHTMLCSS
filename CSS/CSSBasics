@@ -52,3 +52,15 @@ table{border:2px solid black}
 tr {background-color:indigo; }
 td{color: lawngreen;background-color: black; } - td tag styling is always inherited from existing tr tag. if any additional style is present in td, it is then applied.
 th{color:red;background-color: wheat; }
+
+SPAN -
+<span> - Apply style to certain value inside a tag. <p><span>Hi</span></p>
+
+DIV
+<div> - use a division to apply similar styles or provide id information
+
+Selectors -
+element selector -  p{color:blue}
+id selector -       <p id="pa1"> || #pa1{color:blue}
+class selector -    <p class="classPara"> || .classPara{color:blue}
+universal selector- <h1><h2><h3>..</h1>   || *{color:blue} -- this will make all tags to blue. 

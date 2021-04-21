@@ -49,6 +49,23 @@ p
      color:red;
      background-color: wheat;
  }
+ span
+ {
+     color: blue;
+     font-size: x-large;
+     font-style: italic;
+ }
+ #para1
+ {
+     color:blueviolet
+ }
+ .classpara
+ {
+     color: brown;
+     padding: 10px;
+     border: darkblue;
+     font-size: large;
+ }
  
  a:link
  {
