@@ -61,6 +61,23 @@ DIV
 
 Selectors -
 element selector -  p{color:blue}
-id selector -       <p id="pa1"> || #pa1{color:blue}
-class selector -    <p class="classPara"> || .classPara{color:blue}
-universal selector- <h1><h2><h3>..</h1>   || *{color:blue} -- this will make all tags to blue. 
+id selector -       <p id="pa1">            || #pa1{color:blue}
+class selector -    <p class="classPara">   || .classPara{color:blue}
+universal selector- <h1><h2><h3>..</h1>     || *{color:blue}            -- this will make all tags to blue. 
+Descendant selector-<div><p>some</p></div>  || div p{color:blue}        -- This applies style only to the p tag inside the div tag.
+Child selector -    <body><p></p></body>    || body > p{color:blue}     -- The child selector tag should be an immediate child of parent tag.
+
+POSITIONING - 
+{position:relative; 
+top:100px;              --  relative positioning asks CSS to shift the tag 100px left and 100px right relative to its original position.
+left:100px;}
+
+{position:absolute;
+top:50px;               -- absolute positioning asks CSS to shift the tag from left top of the screen to the required position.
+left:80px;}
+
+if a combination of relative and absolute is used - the absolute positioning is marked frm the relative tag's location, and not from the left top of the screen.
+
+position:fixed; 
+top:10px;
+left:0px;               -- The fixed positioning allows the element to allow it non scrollable. It stays fixed.

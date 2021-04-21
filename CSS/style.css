@@ -59,12 +59,64 @@ p
  {
      color:blueviolet
  }
+ .rela
+ {
+     position: relative;
+     top:10px;
+     left: 100px;
+     color:darkblue
+ }
+ .relabs
+ {
+     position: relative;
+     top: 40px;
+     left: 69px;
+     color:darkblue;
+     border:2px solid black;
+     width:fit-content;
+     height: fit-content;
+   
+
+ }
+ .fixedPos
+ {
+     position: fixed;
+     color: cornflowerblue;
+     border:2px dotted crimson;
+     top:0px;
+     left:10px
+ }
+ .abso
+ {
+     position: absolute;
+     top:20px;
+     left: 100px;
+     color: lightseagreen
+ }
  .classpara
  {
      color: brown;
      padding: 10px;
      border: darkblue;
      font-size: large;
+ }
+ div h4
+ {
+     color:chocolate;
+    
+     font-size: large;
+     font-weight: bolder;
+     border: cornflowerblue;
+     border-width: medium;
+ }
+ body > h4
+ {
+     color:crimson;
+     font-size: large;
+     font-weight: bolder;
+     border: cornflowerblue;
+     border-width: medium;
+
  }
  
  a:link

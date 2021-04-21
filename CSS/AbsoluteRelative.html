@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Relative and Absolute positioning</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <style contenteditable>
+            .wrap {
+                position: absolute;
+                border: 3px solid black;
+                width: fit-content;
+                height: fit-content;
+                top: 100px;
+                    left: 190px;
+            }
+        </style>
+
+        <div class="child child-1">
+            <style contenteditable>
+                .child-1 {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    background-color: chocolate;
+                }
+            </style>
+            <p>CHILD 1</p>
+        </div>
+
+        <div class="child child-2">
+            <style contenteditable>
+                .child-2 {
+                    position: relative;
+                    top: 30%;
+                    right: -25px;
+                    background-color: chocolate;
+                }
+            </style>
+            <p>CHILD 2</p>
+        </div>
+
+        <div class="child child-3">
+            <style contenteditable>
+                .child-3 {
+                    position: relative;
+                    bottom: 5px;
+                    left: 10px;
+                    background-color: chocolate;
+                }
+            </style>
+            <p>CHILD 3</p>
+        </div>
+    </div>
+</body>
+
+</html>
