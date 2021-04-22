@@ -1,0 +1,46 @@
+FlexBox - CSS flexible box module - 1D layout model. this allows for flexible and efficient layouts, distribute space among items, control their alignment.
+Before FlexBox 4 Layout modes existed - 
+1. Block - for sections in a webpage
+2. Inline - for text
+3. Table - for 2-D table data
+4. Positioned - for explicit position of an element
+
+Flexbox - lot of flexibility, arrange items, spacing, alignment, order of items, bootstrap3 is built on top of flex.
+
+Terminology - 
+Flex Container  - Parent element/tag
+Flex Child/Item      - Child elements of Container 
+Ex - 
+<div class="container">
+ <div class="child">Item1</div>
+ <div class="child">Item1</div>
+ <div class="child">Item1</div>
+</div>  
+Flex axes       - 
+Main axis       - Starts horizontally from L to R. Start position = Main Start, End Position = Main end, Axis length = Main size
+Cross axis      - Starts Vertically from Top to Bottom Start position = Cross Start, End Position = Cross end, Axis length = Cross size
+
+Flex Container properties - 
+-- display: flex;                   - Create a block level flex box where width is till end of page.
+-- display: inline flex;            - inline level flex box where width fills the content
+-- flex-direction: row;             - Sets Main axis to L to R
+-- flex-direction: row-reverse;     - Sets Main axis from R to L
+-- flex-direction: column;          - Sets Main axis from Top to bottom.
+-- flex-direction: column-reverse;  - Sets Main axis from bottom to top
+-- flex-wrap: wrap;                 - If wrap is selected, and screen size is reduced, the values fall to row below from Right hand side
+-- flex-wrap: wrap-reverse;         - If wrap reverse is selected, values from Right go to the row above on screen change
+-- flex-wrap: nowrap;               - The values don't fall into either above or below rows, and on screen reduction the'yre are not preserved.
+-- flex-flow: direction wrap;       - This is a short hand style for writing flex direction/wrap together.
+-- justify-content: flex-start;     - Justifies content by placing it on the Main start axis. The alignment is always around the Main axis
+-- justify-content: flex-end;       - Places items to the end of Main Axis. If display is set as inline-flex and values are already filled, these wont make any difference.
+-- justify-content: center;         - Keeps the items in center
+-- justify-content: space-between;  - Keeps equal space between the elements
+-- justify-content: space-around;   - Keeps space in the starting which is half of the space between the elements.
+-- justify-content: space-equally;  - Keeps equal spacing from start to between the elements
+-- align-items: stretch;            - Works for Cross Axis only, keeps the elements through start to end of the Cross Axis
+-- align-items: flex-start;         - Pushes the elements to the start of the Cross Axis.
+-- align-items: flex-end;           - Pushes the elements to the end of Cross Axis.
+-- align-items: center;             - Keeps in between
+-- align-items: baseline;           - Align items by the baseline of the text value where baseline is the mean line where most of the words inside the element sit.
+-- align-content: 
+

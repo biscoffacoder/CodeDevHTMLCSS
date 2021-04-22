@@ -78,6 +78,7 @@ left:80px;}
 
 if a combination of relative and absolute is used - the absolute positioning is marked frm the relative tag's location, and not from the left top of the screen.
 
-position:fixed; 
+{position:fixed; 
 top:10px;
 left:0px;               -- The fixed positioning allows the element to allow it non scrollable. It stays fixed.
+}
