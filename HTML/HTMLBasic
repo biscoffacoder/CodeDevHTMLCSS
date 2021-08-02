@@ -27,7 +27,7 @@ content
 <img src="" alt="someText"/> image tag with source and alt text
 <img src="" alt="" height="100px" width="90px"/> Inline Styling
 <img src="" alt="" style="height:100px; width:90px"/> Inline Styling with style attribute.
-<a href=""> Anchor tag is used to set up a link
+<a href="" target="_blank"> Anchor tag is used to set up a link, target is used to opne a link in a new tab if it is _blank.
 <a href="#idValue"> This href can be used as a quick bookamrk to jump to a id of a tag.
 <a href="page.html#idValue"> This href can be used to jump to a page and then again to a id of a tag.
 <table border="1" cellpadding="5" cellspacing="10" width="500px" height="200px"> Table tag with a border and cell spacing b/n content and border, cellspacing - spaces between two cells
